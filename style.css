@@ -184,42 +184,77 @@ img{
 /* My skills */
 #skills{
     background: #404a49;
+
     
 }
-#skills .title{
+#skills .skills{
     display: flex;
-    color: white;
-    font-size: 50px;
-    font-weight: 600;
-    width: 100%;
-    padding-left: 620px;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
 }
+#skills .oblik{
+    display: flex;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    width: 550px;
+    flex-direction: column;
+    
+}
+#skills .opiss{
+    margin-top: 20px;
+}
+#skills .education{
+    background: rgba(156, 179, 180, 0.5);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+
 #skills .skill{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
-    padding: 6px;
-    color: white;
-
+    
 }
-#skills .skills{
+#skills .title{
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1200px;
-
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 620px;
+    
 }
+#skills .technology{
+    background-image: url(./img/pexels-pixabay-459654.jpg);
+    background-size: cover;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
 #skills .skill-name{
     text-align: left;
     font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
 }
 #skills .skill-bar{
-    width: 600px;
+    width: 500px;
     height: 20px;
-    background: #cacaca;
+    background: black;
     border-radius: 8px;
+    padding-bottom: 20px;
+    
 }
 #skills .skill-per{
     height: 20px;
@@ -228,13 +263,14 @@ img{
     transition: 1s linear;
     position: relative;
     width: 0%;
+    
 }
 #skills .skill-per::before{
     content: attr(per);
     position: absolute;
     padding: 4px 6px;
-    background-color: black;
-    color: #fff;
+    background-color: yellow;
+    color: black;
     font-size: 12px;
     border-radius: 4px;
     top: -35px;
@@ -246,7 +282,7 @@ img{
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: black;
+    background-color:yellow;
     top: -16px;
     right: 0;
     transform: translateX(50%) rotate(45deg);
