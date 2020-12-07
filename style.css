@@ -141,6 +141,8 @@ img{
 /* End about me */
 
 /* Experience */
+
+
 #experience .title{
     font-size: 50px;
     font-weight: 900;
@@ -182,6 +184,8 @@ img{
 /* End Experience */
 
 /* My skills */
+
+
 #skills{
     background: #404a49;
 
@@ -194,26 +198,56 @@ img{
     margin: 0 auto;
     width: 100px;
 }
-#skills .oblik{
+#skills .naslov h1{
     display: flex;
-    width: 800px;
+    color: yellow;
     text-align: center;
     justify-content: center;
-    width: 550px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 3rem;
+    
+
+}
+
+#skills .oblik{
+    display: flex;
     flex-direction: column;
+    padding: 20px;
+    padding-bottom: 150px;
+    padding-right: 200px;
     
 }
 #skills .opiss{
-    margin-top: 20px;
+    margin-top: 60px;
+    padding: 30px;
+    
 }
 #skills .education{
-    background: rgba(156, 179, 180, 0.5);
+    background-image: url(./img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-size: cover;
     border-radius: 20px;
     padding-bottom: 20px;
     text-align: center;
     width: 500px;
+    color: white;
 }
-
+#skills .education p{
+    padding-top: 10px;
+    font-size: 10pt;
+    font-weight: 500;
+}
+#skills .education h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+#skills .education h2{
+    width: 300px;
+    margin-left: 100px;
+}
+#skills .education p{
+}
 
 #skills .skill{
     text-align: center;
